@@ -81,7 +81,7 @@ jobs:
 
       # - name: Post to Discord
       #   env:
-      #     DISCORD_WEBHOOK: ${{ secrets.DISCORD_MIDI_WEBHOOK }}
+      #     DISCORD_WEBHOOK: ${{ secrets.DISCORD_FVTT_WEBHOOK }}
       #   run: |
       #     curl -H "Content-Type: application/json" \
       #     -d '{
