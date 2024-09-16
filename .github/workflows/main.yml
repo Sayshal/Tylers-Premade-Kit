@@ -20,8 +20,7 @@ jobs:
         id: set-release-notes-github
         run: |
           echo "- Bugfixes:" >> release_notes.txt
-          echo "  - Protection: Fix homebrew option not checking disadvantage correctly, thanks Fiach." >> release_notes.txt
-          echo "  - Identify Protection: Ensure check is only done on an already unidentified item for some edge cases." >> release_notes.txt
+          echo "  - TEST RELEASE
           echo "release-notes-github<<EOF" >> $GITHUB_ENV
           cat release_notes.txt >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV

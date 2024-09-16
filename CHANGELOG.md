@@ -5,3 +5,4 @@
 - Initial setup
 - Add packdata and initial items
 - Add MIT license
+- Attempt autobuild
