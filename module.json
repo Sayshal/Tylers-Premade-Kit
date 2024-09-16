@@ -40,5 +40,60 @@
       "discord": "Tyler",
       "flags": {}
     }
+  ],
+  "packs": [
+    {
+      "name": "tpk-actors",
+      "label": "TPK Actors",
+      "path": "packs/tpk-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "tpk-items",
+      "label": "TPK Items",
+      "path": "packs/tpk-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "tpk-spells",
+      "label": "TPK Spells",
+      "path": "packs/tpk-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "tpk-features",
+      "label": "TPK Features",
+      "path": "packs/tpk-features",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Tyler's Premade Kit",
+      "sorting": "m",
+      "color": "#ff144f",
+      "packs": ["tpk-actors", "tpk-items", "tpk-spells", "tpk-features"],
+      "folders": []
+    }
   ]
 }
