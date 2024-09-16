@@ -8,4 +8,4 @@ I am a extremely novice devloper using this module as a sandbox to teach myself 
 <br>
 <hr></hr>
 <h2>Changelog</h2>
-(Click here)[https://github.com/Sayshal/tylers-premade-kit/blob/main/CHANGELOG.md]
+[Click here](https://github.com/Sayshal/tylers-premade-kit/blob/main/CHANGELOG.md)

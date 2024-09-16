@@ -26,8 +26,8 @@ fs.readFile(moduleJsonPath, 'utf8', (err, data) => {
     }
 
     moduleJson.version = version;
-    moduleJson.manifest = `https://github.com/gambit07/gambits-premades/releases/latest/download/module.json`;
-    moduleJson.download = `https://github.com/gambit07/gambits-premades/releases/download/${version}/module.zip`;
+    moduleJson.manifest = `https://github.com/Sayshal/tylers-premade-kit/releases/latest/download/module.json`;
+    moduleJson.download = `https://github.com/Sayshal/tylers-premade-kit/releases/download/${version}/module.zip`;
 
     fs.writeFile(moduleJsonPath, JSON.stringify(moduleJson, null, 2), 'utf8', (err) => {
         if (err) {
