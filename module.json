@@ -6,5 +6,39 @@
     "minimum": "12",
     "verified": "12",
     "maximum": "12"
-  }
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Tyler",
+      "url": "github.com/Sayshal",
+      "discord": "Tyler",
+      "flags": {}
+    }
+  ]
 }
