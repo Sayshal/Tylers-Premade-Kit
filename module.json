@@ -1,0 +1,10 @@
+{
+  "id": "tylers-premade-kit",
+  "title": "Tyler's Premade Kit",
+  "version": "0.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  }
+}
