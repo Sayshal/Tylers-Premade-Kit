@@ -1,7 +1,7 @@
 {
   "id": "tylers-premade-kit",
   "title": "Tyler's Premade Kit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
@@ -29,7 +29,11 @@
       {
         "id": "dnd5e",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "3.3.9",
+          "verified": "3.3.9",
+          "maximum": "3.3.9"
+        }
       }
     ]
   },
